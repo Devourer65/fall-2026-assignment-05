@@ -1,1 +1,126 @@
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Shop thoughtful home goods, botanical details, and natural textures at Moss & Morrow."
+    />
+    <title>Shop the Collection — Moss & Morrow</title>
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <script type="module" src="./src/main.js"></script>
+  </head>
+  <body data-page="store">
+    <header class="site-header">
+      <a class="brand" href="./index.html" aria-label="Moss and Morrow home"
+        ><span class="brand-mark">m.</span><span>MOSS <i>&</i> MORROW</span></a
+      >
+      <button
+        class="menu-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="./index.html">Home</a><a href="./about.html">Our story</a
+        ><a class="active" href="./store.html">Shop</a>
+      </nav>
+      <a class="header-cta" href="./about.html"
+        >Meet the makers <span>↗</span></a
+      >
+    </header>
+    <main>
+      <section class="store-hero">
+        <div>
+          <p class="eyebrow">
+            <span class="eyebrow-line"></span> THE MOSS & MORROW COLLECTION
+          </p>
+          <h1>Useful things.<br /><em>Beautifully considered.</em></h1>
+          <p>
+            Thoughtful pieces for the spaces, rituals, and little moments that
+            make a life.
+          </p>
+        </div>
+        <div class="store-hero-stamp">
+          <span>✳</span>
+          <p>LIVE WITH<br />WHAT YOU LOVE</p>
+        </div>
+      </section>
+      <section class="store-toolbar">
+        <div>
+          <span class="result-count" id="result-count">15 thoughtful finds</span
+          ><span class="toolbar-divider">/</span
+          ><span class="page-status" id="page-status">Page 1 of 3</span>
+        </div>
+        <label class="sort-label" for="sort-products"
+          >Sort by
+          <select id="sort-products">
+            <option value="featured">Featured</option>
+            <option value="name-asc">Name: A to Z</option>
+            <option value="price-asc">Price: low to high</option>
+            <option value="price-desc">Price: high to low</option>
+          </select></label
+        >
+      </section>
+      <section class="store-layout">
+        <aside class="store-aside">
+          <p class="eyebrow">FIND YOUR THING</p>
+          <h2>Shop by<br /><em>feeling.</em></h2>
+          <div class="category-filters" id="category-filters">
+            <button class="category-filter active" data-category="All">
+              Everything <span>15</span></button
+            ><button class="category-filter" data-category="Planters">
+              Planters <span>3</span></button
+            ><button class="category-filter" data-category="Decor">
+              Decor <span>4</span></button
+            ><button class="category-filter" data-category="Textiles">
+              Textiles <span>3</span></button
+            ><button class="category-filter" data-category="Storage">
+              Storage <span>1</span></button
+            ><button class="category-filter" data-category="Kitchen">
+              Kitchen <span>1</span></button
+            ><button class="category-filter" data-category="Botanicals">
+              Botanicals <span>1</span></button
+            ><button class="category-filter" data-category="Wellness">
+              Wellness <span>2</span>
+            </button>
+          </div>
+          <div class="aside-note">
+            <span>✳</span>
+            <p>Thoughtfully chosen.<br />Meant to be lived with.</p>
+          </div>
+        </aside>
+        <div class="store-main">
+          <div
+            class="product-grid"
+            id="product-grid"
+            aria-live="polite"
+            aria-busy="true"
+          >
+            <p class="loading-message">Gathering good things…</p>
+          </div>
+          <nav
+            class="pagination"
+            id="pagination"
+            aria-label="Product pages"
+          ></nav>
+          <p class="pagination-hint">
+            15 pieces to make your space feel a little more you.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a class="brand" href="./index.html"
+        ><span class="brand-mark">m.</span><span>MOSS <i>&</i> MORROW</span></a
+      >
+      <p>Make yourself at home.</p>
+      <div class="footer-links">
+        <a href="./about.html">Our story</a><a href="./store.html">Shop</a
+        ><span>© 2025 Moss & Morrow</span>
+      </div>
+    </footer>
+  </body>
+</html>

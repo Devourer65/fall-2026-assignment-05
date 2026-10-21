@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "Terracotta Planter",
+    "price": 24,
+    "category": "Planters",
+    "description": "A warm, earthy planter with a softly ribbed finish for your favorite leafy companion.",
+    "imageUrl": "./images/product1-for-project.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Pebble Ceramic Vase",
+    "price": 32,
+    "category": "Decor",
+    "description": "Sculptural curves and a matte glaze make this vase lovely with or without stems.",
+    "imageUrl": "./images/product2-for-project.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Linen Cushion Cover",
+    "price": 28,
+    "category": "Textiles",
+    "description": "Relaxed flax linen brings natural texture and an easy, lived-in feel to your sofa.",
+    "imageUrl": "./images/product3-for-project.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Amber Glass Bottle",
+    "price": 18,
+    "category": "Decor",
+    "description": "A recycled-glass bottle that catches the light beautifully on shelves and tables.",
+    "imageUrl": "./images/product4-for-project.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Woven Market Basket",
+    "price": 36,
+    "category": "Storage",
+    "description": "Handwoven-look natural fibers make this roomy basket useful from market trips to blanket storage.",
+    "imageUrl": "./images/product5-for-project.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Sage Herb Pot",
+    "price": 20,
+    "category": "Planters",
+    "description": "A compact sage-green pot designed for kitchen herbs, small succulents, and sunny windowsills.",
+    "imageUrl": "./images/product6-for-project.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Oak Catchall Tray",
+    "price": 26,
+    "category": "Decor",
+    "description": "A smooth oak tray keeps keys, jewelry, and everyday little things beautifully in place.",
+    "imageUrl": "./images/product7-for-project.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Cotton Throw Blanket",
+    "price": 58,
+    "category": "Textiles",
+    "description": "Soft, breathable cotton with a subtle woven stripe for slow mornings and cool evenings.",
+    "imageUrl": "./images/product8-for-project.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Stoneware Mug",
+    "price": 22,
+    "category": "Kitchen",
+    "description": "A tactile stoneware mug with a generous handle, made for your daily coffee or tea ritual.",
+    "imageUrl": "./images/product9-for-project.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Dried Meadow Bundle",
+    "price": 30,
+    "category": "Botanicals",
+    "description": "A seasonal mix of dried stems in soft, natural tones that lasts long after fresh flowers fade.",
+    "imageUrl": "./images/product10-for-project.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Cedar Incense Holder",
+    "price": 16,
+    "category": "Wellness",
+    "description": "A minimal cedar holder adds a grounding, woodsy detail to your quiet-time routine.",
+    "imageUrl": "./images/product11-for-project.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Reed Diffuser Set",
+    "price": 34,
+    "category": "Wellness",
+    "description": "A gentle botanical fragrance and natural reeds create a calm, welcoming atmosphere.",
+    "imageUrl": "./images/product12-for-project.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Linen Table Runner",
+    "price": 42,
+    "category": "Textiles",
+    "description": "An understated runner in washed linen brings an effortless finish to everyday meals.",
+    "imageUrl": "./images/product13-for-project.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Mini Glass Cloche",
+    "price": 25,
+    "category": "Decor",
+    "description": "A petite glass dome gives small treasures, cuttings, and collected objects a special place.",
+    "imageUrl": "./images/product14-for-project.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Hanging Planter",
+    "price": 38,
+    "category": "Planters",
+    "description": "A suspended ceramic planter adds a little greenery overhead without taking up shelf space.",
+    "imageUrl": "./images/product15-for-project.jpg"
+  }
+]
